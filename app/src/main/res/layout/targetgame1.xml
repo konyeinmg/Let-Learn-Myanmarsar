@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.dell.myapplication.targetgame1">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="20dp">
+
+
+        <TableRow>
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:paddingLeft="15dp">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_centerInParent="true"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttoncolor" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttoncolor" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttoncolor" />
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imagebutton1"
+                android:background="@color/colorAccent"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:paddingLeft="15dp">
+
+            <Button
+                android:layout_centerInParent="true"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttoncolor"
+                android:id="@+id/btn4" />
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttoncolor"
+                android:id="@+id/btn5" />
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttoncolor"
+                android:id="@+id/btn6" />
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imagebutton2"
+                android:background="@color/colorAccent"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:paddingLeft="15dp">
+
+            <Button
+                android:layout_centerInParent="true"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttoncolor"
+                android:id="@+id/btn7" />
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttoncolor"
+                android:id="@+id/btn8" />
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttoncolor"
+                android:id="@+id/btn9" />
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imagebutton3"
+                android:background="@color/colorAccent"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:paddingLeft="15dp">
+
+            <Button
+                android:layout_centerInParent="true"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttoncolor"
+                android:id="@+id/btn10" />
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttoncolor"
+                android:id="@+id/btn11" />
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttoncolor"
+                android:id="@+id/btn12" />
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imagebutton4"
+                android:background="@color/colorAccent"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>
+

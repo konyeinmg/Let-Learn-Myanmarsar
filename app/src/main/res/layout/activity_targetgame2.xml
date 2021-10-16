@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:paddingTop="40dp">
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp">
+            <TableRow>
+                <TextView
+                    android:layout_height="75dp"
+                    android:layout_width="100dp"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:text="နာရီ"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+            <TableRow>
+                <ImageView
+                    android:layout_height="100dp"
+                    android:layout_width="110dp"
+                    android:src="@drawable/clock"
+                    android:clickable="true"
+                    android:id="@+id/one"/>
+                <ImageView
+                    android:layout_height="100dp"
+                    android:layout_width="110dp"
+                    android:src="@drawable/pencil"
+                    android:id="@+id/two"/>
+                <ImageView
+                    android:layout_height="100dp"
+                    android:layout_width="110dp"
+                    android:src="@drawable/police1"
+                    android:id="@+id/three"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_height="75dp"
+                    android:layout_width="100dp"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:text="ရဲသား"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+            <TableRow>
+                <ImageView
+                    android:layout_height="100dp"
+                    android:layout_width="110dp"
+                    android:src="@drawable/lamp"
+                    android:id="@+id/four"/>
+                <ImageView
+                    android:layout_height="100dp"
+                    android:layout_width="110dp"
+                    android:src="@drawable/ball"
+                    android:id="@+id/five"/>
+                <ImageView
+                    android:layout_height="100dp"
+                    android:layout_width="110dp"
+                    android:src="@drawable/police1"
+                    android:id="@+id/six"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_height="75dp"
+                    android:layout_width="100dp"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:text="ခဲတံ"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+            <TableRow>
+                <ImageView
+                    android:layout_height="100dp"
+                    android:layout_width="110dp"
+                    android:src="@drawable/cat"
+                    android:id="@+id/seven"/>
+                <ImageView
+                    android:layout_height="100dp"
+                    android:layout_width="110dp"
+                    android:src="@drawable/pencil"
+                    android:id="@+id/eight"/>
+                <ImageView
+                    android:layout_height="100dp"
+                    android:layout_width="110dp"
+                    android:src="@drawable/ball"
+                    android:id="@+id/nin"/>
+            </TableRow>
+        </TableLayout>
+        </HorizontalScrollView>
+
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".poem"
+            android:label="ကဗ်ာမ်ား"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".story"
+            android:label="ပုံျပင္မ်ား"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vowel"
+            android:label="ဗ်ည္းမ်ား"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".targetpoem"
+            android:label="ကဗ်ာမ်ား"
+            android:parentActivityName=".poem"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".countfruit"
+            android:label="ကဗ်ာမ်ား"
+            android:parentActivityName=".poem"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".jasmine"
+            android:label="ကဗ်ာမ်ား"
+            android:parentActivityName=".poem"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".wish"
+            android:label="ကဗ်ာမ်ား"
+            android:parentActivityName=".poem"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GameActivity"
+            android:label="ေလ့က်င့္ခန္းမ်ား"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".targetgame2"
+            android:label="တူရာရုပ္ပုံ ေရြးၾကမယ္"
+            android:parentActivityName=".GameActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".targetgame1"
+            android:label="ဗ်ည္းပုံစံတူယွဥ္တြဲၾကမယ္"
+            android:parentActivityName=".GameActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".thara"
+            android:label="သရမ်ား"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".targetthara"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".StoryFriend"
+            android:label="သူငယ္ခ်င္း သုံးေယာက္"
+            android:parentActivityName=".story"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
